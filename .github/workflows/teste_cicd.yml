@@ -2,9 +2,9 @@ name: Teste Esteira de deploy
 
 on:
   push:
-    branches: [ release/1.0 ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ release/1.0 ]
+    branches: [ '*' ]
 
 jobs:
 
